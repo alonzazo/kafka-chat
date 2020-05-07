@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 import java.util.concurrent.ExecutionException;
 
 @RestController
-@CrossOrigin(origins = {"http://3.83.105.133:80", "http://3.83.105.133"})
+@CrossOrigin(origins = {"http://3.83.105.133:80", "http://3.83.105.133", "http://localhost"})
 public class ChatController {
 
     @Autowired
